@@ -6,10 +6,6 @@ def main():
     menu = MenuFrame(app)
     menu.grid(row=0, column=0, sticky="nsew")
     menu.grid_propagate(False)
-    #item = ItemFrame(app)
-    #item.grid(row=0, column=1, columnspan=3, sticky="nsew")
-    #order = OrderFrame(app)
-    #order.grid(row=0, column=4, columnspan=3, sticky="nsew")
     app.mainloop()
 
 class MainWindow(tk.Tk):
